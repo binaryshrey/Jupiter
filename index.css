@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar{
+  border: 2px transparent;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.my-nav{
+    padding-top: 16px;
+    background-image: url("home-banner.jpg");
+    height: 110vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+    
+    
+}
+
+.navbar .navbar-brand{
+  font-size: 1.2em;
+}
+
+.navbar-nav{
+    background-color: transparent !important;
+}
+.navbar .navbar-nav {
+    padding-left: 600px;
+    padding-right: none;
+    font-size: 1.2em;
+
+}
+.navbar .navbar-nav .nav-item{
+    padding-right: 30px;
+    padding-right: none;
+    font-size: 0.8em;
+
+}
+
+#app{
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin-top: 100px;
+}
+.head p{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    
+}
+
+
+
+.searchform {
+    display: block;	
+    padding-top: 40px;
+    
+    margin: 0 auto;
+    font-size: 22px;
+}
+  
+  .searchform label, 
+  .searchform input {
+    color: #ff0000;
+    float: left;
+    vertical-align: baseline;
+    margin-left: 24%;
+  }
+  
+  .searchform label { margin: .125em .125em 0 0; }
+  
+  .searchform input[type=search] {
+    border: .125em solid #000000;
+    border-width: 0 0 3px;  
+    background-color: transparent;
+    width:50% ;
+  }
+  
+  .searchform input[type=search]:focus {
+    border-image: linear-gradient(to right, rgb(50, 50, 131) , rgb(36, 156, 36));
+  border-image-slice: 1;
+    color: #000000;
+    outline: 0;
+  
+  }
+
+  
+  
+  
+
+  .btn {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .btn-success {
+    font-family: Raleway-SemiBold;
+    font-size: 20px;
+    color: rgba(100, 211, 100, 0.80);
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid rgba(100, 211, 100, 0.80);
+    border-radius: 40px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .btn-success:hover {
+    color: #FFF;
+    background: rgba(68, 175, 68, 0.90);
+    border: 2px solid rgba(68, 175, 68, 0.90);
+  }
+  
+
+  .footer{
+    background-color:black;
+    font-size: .9em;
+}

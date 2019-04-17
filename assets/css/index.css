@@ -15,7 +15,7 @@ body{
 
 .my-nav{
     padding-top: 16px;
-    background-image: url("home-banner.jpg");
+    background-image: url("../img/home-banner.jpg");
     height: 110vh;
     width: 100%;
     background-repeat: no-repeat;

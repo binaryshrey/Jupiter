@@ -15,7 +15,7 @@ body{
 
 body{
     padding-top: 16px;
-    background-image: url("back2.PNG");
+    background-image: url("../img/bannner.PNG");
     height: 360px;
     width: 100%;
     background-repeat: no-repeat;
@@ -46,9 +46,9 @@ body{
 }
 
 .box{
-    margin-top:230px;
+    margin-top:250px;
     padding: 40px 60px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 230px;
+    margin-right: 230px;
     background-color: white;
 }

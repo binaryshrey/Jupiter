@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body{
+    background-color: #b23bd7;
+} */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#particles-js{
+   width: 100%;
+   position: absolute;
+   left: 0px;
+   height: 100vh;
+}
+
+#leftHalf {
+    background-color: #b23bd7;
+    width: 65%;
+    position: absolute;
+    left: 0px;
+    height: 100vh;
+ }
+
+#leftHalf a{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    padding: 40px; 
+    text-decoration: none;
+}
+
+#rightHalf {   
+    width: 35%;
+    position: absolute;
+    right: 0px;
+    height: 100%;
+}
+.fc{
+    border-color: #b342f4; 
+    width:70%;
+}
+.signup-form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20% 0;
+}
+
+.signup-form h2 {
+    color: black;
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.signup-form .desc {
+    font-size: 14px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.signup-form form {		
+    border-radius: 1px;
+    margin-bottom: 16px;
+    background: #fff;
+    border: 1px solid #f3f3f3;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+.signup-form .items {
+    margin-bottom: 20px;
+    padding-left: 8px;
+}
+
+.signup-form .fc {
+    min-height: 40px;
+    box-shadow: none !important;
+    border-width: 0 0 1px 0;
+}	
+.signup-form .btn {        
+    font-size: 16px;
+    font-weight: bold;
+    background: #b342f4;
+    border-radius: 3px;
+    border: none;
+    min-width: 140px;
+    outline: none !important;
+    padding: 8px;
+}
+.signup-form .btn:hover {
+    background: #a03cd8;
+}
+
+.signup-form a {
+    color: #b342f4;
+    text-decoration: none;
+}	
+
+.signup-form .fa {
+    font-size: 20px;
+}

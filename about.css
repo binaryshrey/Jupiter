@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar{
+  border: 2px transparent;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+body{
+    padding-top: 16px;
+    background-image: url("back2.PNG");
+    height: 360px;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+    background-position: center center; 
+    
+    
+}
+
+.navbar .navbar-brand{
+  font-size: 1.2em;
+}
+
+.navbar-nav{
+    background-color: transparent !important;
+}
+.navbar .navbar-nav {
+    padding-left: 65%;
+    padding-right: none;
+    font-size: 1.3em;
+
+}
+.navbar .navbar-nav .nav-item{
+    padding-right: 30px;
+    padding-right: none;
+    font-size: 0.8em;
+
+}
+
+.box{
+    margin-top:230px;
+    padding: 40px 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
+}

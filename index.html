@@ -12,84 +12,84 @@
     <script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
     <link rel="stylesheet"  media="screen" href="./assets/css/index.css" />
     <title>Jupiter</title>
+
 </head>
   <body>
 
-        <div class="my-nav">
+    <div class="my-nav">
             
-                    <nav class="navbar navbar-expand-lg  navbar-dark">
+      <nav class="navbar navbar-expand-lg  navbar-dark">
     
-                    <a class="navbar-brand" href="#">
-                        <img src="./assets/img/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-                    Jupiter
-                    </a>
+        <a class="navbar-brand" href="#">
+          <img src="./assets/img/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+          Jupiter
+        </a>
     
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                      <ul class="navbar-nav">
-                        <li class="nav-item active hello">
-                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link " href="#">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="#">SignUp</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </nav>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="features.html">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+                        
+          <li class="nav-item">
+            <a class="nav-link " href="SignUp.html">SignUp</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="Login.html">Login</a>
+          </li>
+          </ul>
+        </div>
+        </nav>
 
-                  <header class="head">
-                      <div id="app"></div>
-                        <p><center> &lt;/&gt; A WebApp for the Best Programming Courses and Tutorials</center></p>
-                  </header>
+        <header class="head">
+          <div id="app"></div>
+          <p><center> &lt;/&gt; A WebApp for the Best Programming Courses and Tutorials</center></p>
+        </header>
 
                   
-                  <div class="container">
-                    
-                  <form class="clearfix searchform" method="get" action="search.php">
-                      <div>
-                      <label for="search-box"></label>
-                      <input type="search" id="search-box" placeholder="Search..."/ name="k">
-                    </div>
-                    <div>
-                      <button type="button" class="btn btn-success">Submit</button>
-                    </div>
-                    </form>
+        <div class="container">
                   
-                  </div>
+          <form class="clearfix searchform" method="get" action="search.php">
+            <div>
+              <label for="search-box"></label>
+              <input type="search" id="search-box" placeholder="Search..."/ name="k">
+            </div>
+            <div>
+              <button type="button" class="btn btn-success">Submit</button>
+            </div>
+          </form>
+                  
         </div>
-        <div class="footer text-center py-2">
-            <a href="#">binaryShrey</a>
-        </div>
+      </div>
+      <div class="footer text-center py-2">
+          <a href="#">binaryShrey</a>
+      </div>
 
 
     <script>
         var app = document.getElementById('app');
 
-var typewriter = new Typewriter(app, {
-    loop: true
-});
+        var typewriter = new Typewriter(app, {
+        loop: true
+        });
 
-typewriter.typeString('<strong>Jupiter</strong>')
-    .pauseFor(2500)
-    
-    .deleteChars(2)
-    .typeString('<strong>er</strong>')
-    .pauseFor(2500)
-    .start();
-
-
+        typewriter.typeString('<strong>Jupiter</strong>')
+        .pauseFor(2500)
+        
+        .deleteChars(2)
+        .typeString('<strong>er</strong>')
+        .pauseFor(2500)
+        .start();
     </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

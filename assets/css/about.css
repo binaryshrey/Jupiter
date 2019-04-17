@@ -4,8 +4,7 @@
 
 body{
     margin: 0;
-    padding: 0;
-    
+    padding: 0;   
 }
 
 .navbar{
@@ -19,10 +18,7 @@ body{
     height: 360px;
     width: 100%;
     background-repeat: no-repeat;
-    
     background-position: center center; 
-    
-    
 }
 
 .navbar .navbar-brand{
@@ -36,13 +32,11 @@ body{
     padding-left: 65%;
     padding-right: none;
     font-size: 1.3em;
-
 }
 .navbar .navbar-nav .nav-item{
     padding-right: 30px;
     padding-right: none;
     font-size: 0.8em;
-
 }
 
 .box{

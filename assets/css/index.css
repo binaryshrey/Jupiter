@@ -11,15 +11,15 @@ body{
 color:white;
 }
 
-.navbar{
-border: 2px transparent;
+/* .navbar{
+border: 1px transparent;
 box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
-}
+} */
 
 .my-nav{
-  padding-top: 16px;
+  padding-top: 24px;
   background-image: url("../img/home-banner.webp");
-  height: 110vh;
+  height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,7 +27,7 @@ box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
 }
 
 .navbar .navbar-brand{
-font-size: 1.2em;
+font-size: 1.3em;
 }
 
 .navbar-nav{
@@ -40,9 +40,9 @@ font-size: 1.2em;
 }
 
 .navbar .navbar-nav .nav-item{
-  padding-right: 30px;
-  padding-right: none;
-  font-size: 0.8em;
+  padding-right: 24px;
+  
+  font-size: 0.9em;
 }
 
 #app{
@@ -84,7 +84,7 @@ font-size: 1.2em;
 }
 
 .searchform input[type=search]:focus {
-  border-image: linear-gradient(to right, rgb(50, 50, 131) , rgb(36, 156, 36));
+  border-image: linear-gradient(to right, green,white);
   border-image-slice: 1;
   color: #000000;
   outline: 0;

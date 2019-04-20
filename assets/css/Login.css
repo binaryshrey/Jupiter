@@ -16,13 +16,11 @@ body{
    left: 0px;
    height: 100vh;
 }
-.container{
-    height: 100vh;
-}
+
 
 #leftHalf {
     background-color: #b23bd7;
-    width: 65%;
+    width: none;
     position: absolute;
     left: 0px;
     height: 100vh;
@@ -35,7 +33,7 @@ body{
 }
 
 #rightHalf {   
-    width: 35%;
+    width: 100%;
     position: absolute;
     right: 0px;
     height: 100%;
@@ -53,20 +51,20 @@ body{
 }
 
 .signup-form {
-    width: 74%;
+    width: 90%;
     margin: 0 auto;
     padding-top : 64px;
     padding-bottom: 32px;
 }
 
-.signup-form h2 {
+.signup-form h3 {
     color: black;
     margin: 0 0 20px;
     text-align: center;
 }
 
 .signup-form .desc {
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -109,4 +107,34 @@ body{
 }	
 .signup-form .fa {
     font-size: 20px;
+}
+
+@media screen and (min-width:768px){
+    
+    #leftHalf {
+        width: 50%;
+    }  
+
+    #rightHalf {   
+        width: 50%;
+    }
+    .signup-form {
+        width: 80%;
+    }
+    .signup-form .desc {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width:1024px){
+    
+    #leftHalf {
+        width: 64%;
+    }  
+
+    #rightHalf {   
+        width: 36%;
+    }
+    .signup-form {
+        width: 70%;
+    }
 }

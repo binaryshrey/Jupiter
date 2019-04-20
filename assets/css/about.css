@@ -4,7 +4,7 @@
 
 body{
     margin: 0;
-    padding: 0;   
+    padding: 0;
 }
 
 .navbar{
@@ -14,11 +14,11 @@ body{
 
 body{
     padding-top: 16px;
-    background-image: url("../img/bannner.PNG");
-    height: 360px;
+    background-image: url("../img/bannner.webp");
+    height: 320px;
     width: 100%;
     background-repeat: no-repeat;
-    background-position: center center; 
+    background-position: center center;   
 }
 
 .navbar .navbar-brand{
@@ -32,6 +32,7 @@ body{
     padding-left: 65%;
     padding-right: none;
     font-size: 1.3em;
+
 }
 .navbar .navbar-nav .nav-item{
     padding-right: 30px;
@@ -42,7 +43,7 @@ body{
 .box{
     margin-top:230px;
     padding: 40px 60px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 230px;
+    margin-right: 230px;
     background-color: white;
 }

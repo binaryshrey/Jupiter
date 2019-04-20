@@ -14,8 +14,8 @@ body{
 
 body{
     padding-top: 16px;
-    background-image: url("../img/bannner.PNG");
-    height: 360px;
+    background-image: url("../img/bannner.webp");
+    height: 320px;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center center;   
@@ -41,7 +41,7 @@ body{
 }
 
 .box{
-    margin-top:250px;
+    margin-top:230px;
     padding: 40px 60px;
     margin-left: 230px;
     margin-right: 230px;

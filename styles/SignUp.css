@@ -32,9 +32,13 @@ body{
 }
 
 
+textarea:focus,input:focus{
+    outline: none;
+}
+
 .signup-form a h1{
     color: #8e34c1;
-    padding-top: 64px;
+    padding-top: 32px;
     padding-bottom: 32px;
 
 }

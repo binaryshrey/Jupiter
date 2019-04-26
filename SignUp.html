@@ -18,6 +18,7 @@
     <link rel="stylesheet" type="text/css" href="./styles/SignUp.css">
     <link rel="icon" sizes="192x192" href="./assets/logo.webp">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="./scripts/signup.js"></script>
     </head>
     <body>
 
@@ -33,39 +34,50 @@
     
                 <div class="signup-form">	
                     <center><a href="index.html"><h1 class="heading">Jupiter</h1></a></center>
-                    <form>
+
+                    <div class="alert alert-success" role="alert" id="success" style="visibility: hidden">
+                        <center>SignUp Successful</center>
+                    </div>
+
+                    <form  target="_blank"  method="POST" onsubmit="return upvalidate()">
                         <h3>Create Account</h3>
                         <p class="desc">It's free and hardly takes more than 30 seconds.</p>
                             
                         <div class="items">                        
                             <span class="input1"><i class="fa fa-user"></i></span>
-                            <input type="text" class="fc" name="username" placeholder="Username" required="required">
+                            <input type="text" class="fc" name="username" placeholder="Username" id="username">
+
+                            <label id='error_name' style="color:red; visibility : hidden";></label>
                             
                         </div>
                         <div class="items">
                             
-                            <span class="input1"><i class="fa fa-paper-plane"></i></span>
-                            <input type="email" class="fc" name="email" placeholder="Email Address" required="required">
+                            <span class="input1"><i class="fa fa-envelope"></i></span>
+                            <input type="email" class="fc" name="email" placeholder="Email Address" id="email">
+
+                            <label id='error_email' style="color:red; visibility : hidden";></label>
                                 
                         </div>
                         <div class="items">
                                 
                             <span class="input1"><i class="fa fa-lock"></i></span>
-                            <input type="text" class="fc" name="password" placeholder="Password" required="required">
+                            <input type="password" class="fc" name="password" placeholder="Password"  id="pass">
+
+                            <label id='error_pass' style="color:red; visibility : hidden";></label>
                             
                         </div>
     
                         <div class="items">
-                            <span class="input1">
-                                <i class="fa fa-lock"></i>
-                            </span>
-                            <input type="text" class="fc" name="confirm_password" placeholder="Confirm Password" required="required">
+                            <span class="input1"><i class="fa fa-lock"></i></span>
+                            <input type="password" class="fc" name="confirm_password" placeholder="Confirm Password" id="repass">
+
+                            <label id='error_repass' style="color:red; visibility : hidden";></label>
                                 
                         </div>        
     
     
                         <div class="items">
-                            <button type="submit" class="btn btn-primary btn-block btn-lg">Sign Up</button>
+                            <input type="submit" value="Sign Up" name="submit" class="btn btn-primary btn-block btn-lg"></input>
                         </div>
     
                             
@@ -76,7 +88,7 @@
     
             </div>
         
-
+    <script type="text/javascript" src="./scripts/signup.js"></script>
     <script type="text/javascript" src="./scripts/particles.min.js"></script>
     <script type="text/javascript" src="./scripts/app.js"></script>
     <!-- Optional JavaScript -->

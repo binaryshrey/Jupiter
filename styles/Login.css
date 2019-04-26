@@ -38,6 +38,11 @@ body{
     right: 0px;
     height: 100%;
 } 
+
+textarea:focus,input:focus{
+    outline: none;
+}
+
 .fc{
     border-color: #b342f4; 
     width:70%;

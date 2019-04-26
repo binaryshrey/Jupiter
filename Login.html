@@ -18,6 +18,7 @@
     <link rel="stylesheet" type="text/css" href="./styles/Login.css">
     <link rel="icon" sizes="192x192" href="./assets/logo.webp">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>    
+    <script type="text/javascript" src="./scripts/signin.js"></script>
     </head>
     <body>
             <div id="leftHalf">
@@ -29,21 +30,25 @@
             
                 <div class="signup-form">	
                     <center><a href="index.html"><h1 class="heading">Jupiter</h1></a></center>
-                    <form>
+                    <form target="_blank" onsubmit="return invalidate()" method="POST">
                         <h3>Login to your Account</h3>
                         
                         <div class="items">                        
                             <span class="input1"><i class="fa fa-user"></i></span>
-                            <input type="text" class="fc" name="username" placeholder="Username" required="required">      
+                            <input type="text" class="fc" name="username" placeholder="Username" id="username">  
+
+                            <label id='error_name' style="color:red; visibility : hidden";></label>    
                         </div>
                         
                         <div class="items">    
                             <span class="input1"><i class="fa fa-lock"></i></span>
-                            <input type="text" class="fc" name="password" placeholder="Password" required="required">
+                            <input type="password" class="fc" name="password" placeholder="Password" id="pass">
+
+                            <label id='error_pass' style="color:red; visibility : hidden";></label>
                         </div>
                          
                         <div class="items">
-                            <button type="submit" class="btn btn-primary btn-block btn-lg">Login</button>
+                            <input type="submit" name="submit" value="Login" class="btn btn-primary btn-block btn-lg"></input>
                         </div>
                         
                     </form>
@@ -52,7 +57,7 @@
     
             </div>
         
-
+    <script type="text/javascript" src="./scripts/signin.js"></script>       
     <script type="text/javascript" src="./scripts/particles.min.js"></script>
     <script type="text/javascript" src="./scripts/app.js"></script>
     <!-- Optional JavaScript -->
